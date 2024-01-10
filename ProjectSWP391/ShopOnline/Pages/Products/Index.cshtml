@@ -5,64 +5,72 @@
     ViewData["Title"] = "Product";
 }
 
-<h1>Product</h1>
-<input type="text" placeholder="Search.." name="search">
-<button type="submit">Submit</button>
+<div class="container">
+    <h1>Product</h1>
+    <form method="get" class="mb-3">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search.." name="SearchString" value="@Model.SearchString">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].ProductName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].QuantityPerUnit)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].UnitPrice)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].ProductImage)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].Supplier)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product[0].Category)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Product) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.QuantityPerUnit)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UnitPrice)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ProductImage)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Supplier.CompanyName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category.CategoryName)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.ProductId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ProductId">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ProductId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <h2>Categories:</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><a asp-page="./Index">All</a></li>
+                <li class="list-group-item"><a asp-page="./Index" asp-route-categoryId="1">Banh</a></li>
+                <li class="list-group-item"><a asp-page="./Index" asp-route-categoryId="2">Keo</a></li>
+                <!-- Replace categoryId values with your actual category IDs -->
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <form method="get">
+                <h2>Sort By:</h2>
+                <select class="form-control" name="sortBy">
+                    <option value="">Default</option>
+                    <option value="UnitPrice">Price</option>
+                    <!-- Add other sorting options if needed -->
+                </select>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <p>
+        <a asp-page="Create" class="btn btn-success">Create New</a>
+    </p>
+
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Product[0].ProductName)</th>
+                <th>@Html.DisplayNameFor(model => model.Product[0].QuantityPerUnit)</th>
+                <th>@Html.DisplayNameFor(model => model.Product[0].UnitPrice)</th>
+                <th>@Html.DisplayNameFor(model => model.Product[0].ProductImage)</th>
+                <th>@Html.DisplayNameFor(model => model.Product[0].Supplier)</th>
+                <th>@Html.DisplayNameFor(model => model.Product[0].Category)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Product)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.QuantityPerUnit)</td>
+                    <td>@Html.DisplayFor(modelItem => item.UnitPrice)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ProductImage)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Supplier.CompanyName)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Category.CategoryName)</td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.ProductId" class="btn btn-sm btn-primary">Edit</a>
+                        <a asp-page="./Details" asp-route-id="@item.ProductId" class="btn btn-sm btn-info">Details</a>
+                        <a asp-page="./Delete" asp-route-id="@item.ProductId" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

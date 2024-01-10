@@ -24,24 +24,28 @@ namespace ShopOnline.Pages.Products
         [BindProperty(SupportsGet = true)]
         public string SearchString { get; set; }
 
-        public async Task OnGetAsync()
+        public async Task OnGetAsync(int? categoryId, string searchString, string? sortBy)
         {
-            if (_context.Product != null)
-            {
-                Product = await _context.Product
+            IQueryable<Product> queriedProducts = _context.Products
                 .Include(p => p.Category)
-                .Include(p => p.Supplier).ToListAsync();
-            }
+                .Include(p => p.Supplier);
 
-
-            IQueryable<Product> products = from m in _context.Products select m;
-
-            if (!string.IsNullOrEmpty(SearchString))
+            if (!string.IsNullOrEmpty(searchString))
             {
-                products = products.Where(m => m.ProductName.Contains(SearchString));
+                queriedProducts = queriedProducts.Where(m => m.ProductName.Contains(searchString));
             }
 
-            Products = await products.ToListAsync();
+            if (categoryId.HasValue)
+            {
+                queriedProducts = queriedProducts.Where(p => p.CategoryId == categoryId);
+            }
+            if (!string.IsNullOrEmpty(sortBy) && sortBy.Equals("UnitPrice"))
+            {
+                queriedProducts = queriedProducts.OrderBy(p => p.UnitPrice); // Sắp xếp theo UnitPrice
+            }
+
+
+            Product = await queriedProducts.ToListAsync();
         }
     }
 }
