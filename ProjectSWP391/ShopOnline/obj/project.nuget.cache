@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WUHwp3H6yYOnxPb3IU+V+bm/4gMrrj0kdzeg3UrHjzpqftG2x2JlhpWOsxw1xZx0EVf8mEKw2p4uBI/0VZhbFQ==",
+  "dgSpecHash": "EwPDGxgD54dxU3zwPxYYAroqrIxWJc2UHJYQpNNiNcpmUm2PAp97n7e0Dmg+s+T8C4vAFj6WcLRfTk9yoNbORA==",
   "success": true,
-  "projectFilePath": "C:\\PRN231\\BaiTap\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj",
+  "projectFilePath": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

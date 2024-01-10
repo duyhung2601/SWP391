@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PRN231\\BaiTap\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj": {}
+    "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj": {}
   },
   "projects": {
-    "C:\\PRN231\\BaiTap\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj": {
+    "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PRN231\\BaiTap\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj",
+        "projectUniqueName": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj",
         "projectName": "ShopOnline",
-        "projectPath": "C:\\PRN231\\BaiTap\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj",
+        "projectPath": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\ShopOnline.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\PRN231\\BaiTap\\ProjectSWP391\\ShopOnline\\obj\\",
+        "outputPath": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
