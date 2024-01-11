@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\wwwroot\\images\\banhgao.png",
+      "PackagePath": "staticwebassets\\images\\banhgao.png"
+    },
+    {
+      "Id": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\wwwroot\\images\\logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo.jpg"
+    },
+    {
       "Id": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NJNJeqJVyi7fPn3srjBtdfRHIp1gEHQCWtdwI9fabXI=",
+  "Hash": "2cAvOJ7KYMfnvfiIdlou3fyCwvuiG4DFU/xtwSZ40o4=",
   "Source": "ShopOnline",
   "BasePath": "_content/ShopOnline",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\wwwroot\\images\\banhgao.png",
+      "SourceId": "ShopOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\wwwroot\\",
+      "BasePath": "_content/ShopOnline",
+      "RelativePath": "images/banhgao.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banhgao.png"
+    },
+    {
+      "Identity": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\wwwroot\\images\\logo.jpg",
+      "SourceId": "ShopOnline",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\wwwroot\\",
+      "BasePath": "_content/ShopOnline",
+      "RelativePath": "images/logo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.jpg"
     },
     {
       "Identity": "C:\\Test\\SWP391\\ProjectSWP391\\ShopOnline\\wwwroot\\js\\site.js",
