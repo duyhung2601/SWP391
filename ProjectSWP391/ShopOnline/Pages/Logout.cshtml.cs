@@ -7,6 +7,7 @@ namespace ShopOnline.Pages
 {
     public class LogoutModel : PageModel
     {
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> OnPostAsync()
         {
             await HttpContext.SignOutAsync("MyAuthScheme");

@@ -26,30 +26,38 @@ namespace ShopOnline.Pages.Authen
         }
         public IActionResult OnPost()
         {
-            Account account = 
-                _context.Account.FirstOrDefault(a => a.UserName.Equals(Username) && a.Password.Equals(Password));      
-            if(account != null)
+            Account account = _context.Account.FirstOrDefault(a => a.UserName.Equals(Username) && a.Password.Equals(Password));
+
+            if (account != null)
             {
                 var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.NameIdentifier, account.AccountId.ToString()),
-                    new Claim(ClaimTypes.Name, account.UserName)
-                };
-                var claimsIdentity =new ClaimsIdentity(claims, "MyAuthScheme");
-                _httpContextAccessor.HttpContext
-                    .SignInAsync("MyAuthScheme",
-                    new ClaimsPrincipal(claimsIdentity),
-                    new AuthenticationProperties());
-                return RedirectToPage("/Index");
+        {
+            new Claim(ClaimTypes.NameIdentifier, account.AccountId.ToString()),
+            new Claim(ClaimTypes.Name, account.UserName)
+        };
 
+                var claimsIdentity = new ClaimsIdentity(claims, "MyAuthScheme");
+                _httpContextAccessor.HttpContext.SignInAsync("MyAuthScheme", new ClaimsPrincipal(claimsIdentity), new AuthenticationProperties());
+
+                // Log the claims for debugging
+                foreach (var claim in claims)
+                {
+                    Console.WriteLine($"Claim Type: {claim.Type}, Claim Value: {claim.Value}");
+                }
+
+                return RedirectToPage("/Index");
             }
             else
             {
                 Msg = "Invalid";
                 return Page();
             }
-            
-           
+
+
+        }
+        public IActionResult OnPostCancel()
+        {
+            return RedirectToPage("/Index");
         }
     }
 }
