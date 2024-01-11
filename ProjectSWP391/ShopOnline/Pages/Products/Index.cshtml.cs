@@ -24,7 +24,7 @@ namespace ShopOnline.Pages.Products
         [BindProperty(SupportsGet = true)]
         public string SearchString { get; set; }
 
-        public async Task OnGetAsync(int? categoryId, string searchString, string? sortBy)
+        public async Task OnGetAsync(int? categoryId, string searchString, string sortBy)
         {
             IQueryable<Product> queriedProducts = _context.Products
                 .Include(p => p.Category)
@@ -39,11 +39,12 @@ namespace ShopOnline.Pages.Products
             {
                 queriedProducts = queriedProducts.Where(p => p.CategoryId == categoryId);
             }
+
+            // Sắp xếp theo UnitPrice nếu có yêu cầu sắp xếp theo giá
             if (!string.IsNullOrEmpty(sortBy) && sortBy.Equals("UnitPrice"))
             {
-                queriedProducts = queriedProducts.OrderBy(p => p.UnitPrice); // Sắp xếp theo UnitPrice
+                queriedProducts = queriedProducts.OrderBy(p => p.UnitPrice);
             }
-
 
             Product = await queriedProducts.ToListAsync();
         }

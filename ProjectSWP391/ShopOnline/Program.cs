@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopOnline.Data;
 namespace ShopOnline
@@ -10,9 +11,23 @@ namespace ShopOnline
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddDbContext<ShopOnlineContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineContext") ?? throw new InvalidOperationException("Connection string 'ShopOnlineContext' not found.")));
-
+            builder.Services.AddAuthentication("MyAuthScheme").AddCookie("MyAuthScheme",options=>
+            {
+                options.LoginPath = "/Login";
+                options.LogoutPath = "/Logout";
+            }
+            );
+            builder.Services.AddHttpContextAccessor();
             // Add services to the container.
             builder.Services.AddRazorPages();
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout=TimeSpan.FromSeconds(1800);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            }
+            );
 
             var app = builder.Build();
 
