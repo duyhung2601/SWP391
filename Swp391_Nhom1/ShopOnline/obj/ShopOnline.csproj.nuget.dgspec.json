@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PRN231\\BaiTap\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj": {}
+    "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj": {}
   },
   "projects": {
-    "C:\\PRN231\\BaiTap\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj": {
+    "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PRN231\\BaiTap\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
+        "projectUniqueName": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
         "projectName": "ShopOnline",
-        "projectPath": "C:\\PRN231\\BaiTap\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
+        "projectPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\PRN231\\BaiTap\\Swp391_Nhom1\\ShopOnline\\obj\\",
+        "outputPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             }
           },
           "imports": [
