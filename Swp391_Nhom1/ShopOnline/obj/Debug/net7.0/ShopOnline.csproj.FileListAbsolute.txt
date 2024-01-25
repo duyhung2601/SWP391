@@ -326,3 +326,7 @@ C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\runtimes\unix\li
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\ShopOnline.DataAccess.dll
+C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\ShopOnline.Models.dll
+C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\ShopOnline.DataAccess.pdb
+C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\ShopOnline.Models.pdb
