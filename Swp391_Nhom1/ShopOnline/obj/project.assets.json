@@ -3862,6 +3862,31 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ShopOnline.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
+          "ShopOnline.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopOnline.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopOnline.DataAccess.dll": {}
+        }
+      },
+      "ShopOnline.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ShopOnline.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopOnline.Models.dll": {}
+        }
       }
     }
   },
@@ -11267,6 +11292,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ShopOnline.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../ShopOnline.DataAccess/ShopOnline.DataAccess.csproj",
+      "msbuildProject": "../ShopOnline.DataAccess/ShopOnline.DataAccess.csproj"
+    },
+    "ShopOnline.Models/1.0.0": {
+      "type": "project",
+      "path": "../ShopOnline.Models/ShopOnline.Models.csproj",
+      "msbuildProject": "../ShopOnline.Models/ShopOnline.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11274,7 +11309,8 @@
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11",
+      "ShopOnline.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11303,7 +11339,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj": {
+              "projectPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
