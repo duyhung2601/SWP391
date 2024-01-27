@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShopOnline.DataAccess.Data;
 
@@ -10,9 +11,11 @@ using ShopOnline.DataAccess.Data;
 namespace ShopOnline.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240127101239_addProductDb")]
+    partial class addProductDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -76,9 +79,6 @@ namespace ShopOnline.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Company")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -110,15 +110,12 @@ namespace ShopOnline.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoryId");
-
                     b.ToTable("Products");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
                             ListPrice = 99.0,
@@ -131,7 +128,6 @@ namespace ShopOnline.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CategoryId = 2,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
                             ListPrice = 30.0,
@@ -141,17 +137,6 @@ namespace ShopOnline.DataAccess.Migrations
                             Price50 = 25.0,
                             SKU = "220909101"
                         });
-                });
-
-            modelBuilder.Entity("ShopOnline.Models.Product", b =>
-                {
-                    b.HasOne("ShopOnline.Models.Category", "Category")
-                        .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }
