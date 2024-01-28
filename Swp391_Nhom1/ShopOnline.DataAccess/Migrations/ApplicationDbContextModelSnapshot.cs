@@ -87,6 +87,10 @@ namespace ShopOnline.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("ListPrice")
                         .HasColumnType("float");
 
@@ -121,6 +125,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
+                            ImageUrl = "",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -134,6 +139,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 2,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
+                            ImageUrl = "",
                             ListPrice = 30.0,
                             Name = "Keo aphelibe",
                             Price = 27.0,

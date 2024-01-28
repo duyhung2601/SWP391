@@ -33,8 +33,8 @@ namespace ShopOnline.DataAccess.Data
                     Price=90,
                     Price50=85,
                     Price100=80,
-                    CategoryId=1
-
+                    CategoryId=1,
+                    ImageUrl = ""
                 },
                 new Product
                 {
@@ -47,7 +47,8 @@ namespace ShopOnline.DataAccess.Data
                     Price = 27,
                     Price50 = 25,
                     Price100 = 20,
-                    CategoryId = 2
+                    CategoryId = 2,
+                    ImageUrl=""
 
                 }
                 );
