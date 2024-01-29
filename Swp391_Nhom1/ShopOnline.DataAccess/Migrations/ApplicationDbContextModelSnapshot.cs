@@ -127,7 +127,7 @@ namespace ShopOnline.DataAccess.Migrations
                             Description = "Den tu mixigaming",
                             ImageUrl = "",
                             ListPrice = 99.0,
-                            Name = "Bánh gạo An Tự Nhiên",
+                            Name = "Bánh gạo An Tự Nhiênnn",
                             Price = 90.0,
                             Price100 = 80.0,
                             Price50 = 85.0,
