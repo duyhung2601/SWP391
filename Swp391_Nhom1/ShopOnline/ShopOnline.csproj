@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ShopOnline.DataAccess\ShopOnline.DataAccess.csproj" />
     <ProjectReference Include="..\ShopOnline.Models\ShopOnline.Models.csproj" />
+    <ProjectReference Include="..\ShopOnline.Utility\ShopOnline.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

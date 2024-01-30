@@ -4225,6 +4225,19 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ShopOnline.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.15"
+        },
+        "compile": {
+          "bin/placeholder/ShopOnline.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopOnline.Utility.dll": {}
+        }
       }
     }
   },
@@ -11973,6 +11986,11 @@
       "type": "project",
       "path": "../ShopOnline.Models/ShopOnline.Models.csproj",
       "msbuildProject": "../ShopOnline.Models/ShopOnline.Models.csproj"
+    },
+    "ShopOnline.Utility/1.0.0": {
+      "type": "project",
+      "path": "../ShopOnline.Utility/ShopOnline.Utility.csproj",
+      "msbuildProject": "../ShopOnline.Utility/ShopOnline.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11985,7 +12003,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.15",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11",
       "ShopOnline.DataAccess >= 1.0.0",
-      "ShopOnline.Models >= 1.0.0"
+      "ShopOnline.Models >= 1.0.0",
+      "ShopOnline.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12020,6 +12039,9 @@
             },
             "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
               "projectPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
+            },
+            "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj": {
+              "projectPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj"
             }
           }
         }

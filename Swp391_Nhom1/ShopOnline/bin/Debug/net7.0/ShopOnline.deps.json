@@ -16,7 +16,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.15",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.11",
           "ShopOnline.DataAccess": "1.0.0",
-          "ShopOnline.Models": "1.0.0"
+          "ShopOnline.Models": "1.0.0",
+          "ShopOnline.Utility": "1.0.0"
         },
         "runtime": {
           "ShopOnline.dll": {}
@@ -2791,6 +2792,14 @@
         "runtime": {
           "ShopOnline.Models.dll": {}
         }
+      },
+      "ShopOnline.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.15"
+        },
+        "runtime": {
+          "ShopOnline.Utility.dll": {}
+        }
       }
     }
   },
@@ -4465,6 +4474,11 @@
       "sha512": ""
     },
     "ShopOnline.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShopOnline.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

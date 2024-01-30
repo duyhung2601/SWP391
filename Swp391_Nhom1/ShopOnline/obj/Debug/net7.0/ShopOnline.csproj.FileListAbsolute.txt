@@ -367,3 +367,5 @@ C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\runtimes\win-arm
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\ShopOnline.Utility.dll
+C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline\bin\Debug\net7.0\ShopOnline.Utility.pdb
