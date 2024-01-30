@@ -6631,19 +6631,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\linhm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (2)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
+      "projectUniqueName": "C:\\Users\\linhm\\Downloads\\SWP391\\SWP_project\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
       "projectName": "ShopOnline.Models",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (2)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (2)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\obj\\",
+      "projectPath": "C:\\Users\\linhm\\Downloads\\SWP391\\SWP_project\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
+      "packagesPath": "C:\\Users\\linhm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\linhm\\Downloads\\SWP391\\SWP_project\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\linhm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6651,6 +6656,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6690,7 +6696,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

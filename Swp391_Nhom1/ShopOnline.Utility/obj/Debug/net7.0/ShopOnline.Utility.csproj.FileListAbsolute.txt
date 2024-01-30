@@ -21,3 +21,15 @@ C:\Users\ASUS\OneDrive\Desktop\New folder (2)\SWP391\Swp391_Nhom1\ShopOnline.Uti
 C:\Users\ASUS\OneDrive\Desktop\New folder (2)\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\refint\ShopOnline.Utility.dll
 C:\Users\ASUS\OneDrive\Desktop\New folder (2)\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.pdb
 C:\Users\ASUS\OneDrive\Desktop\New folder (2)\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ref\ShopOnline.Utility.dll
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\bin\Debug\net7.0\ShopOnline.Utility.deps.json
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\bin\Debug\net7.0\ShopOnline.Utility.dll
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\bin\Debug\net7.0\ShopOnline.Utility.pdb
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.AssemblyInfoInputs.cache
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.AssemblyInfo.cs
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.csproj.CoreCompileInputs.cache
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.sourcelink.json
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.dll
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\refint\ShopOnline.Utility.dll
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.pdb
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ref\ShopOnline.Utility.dll

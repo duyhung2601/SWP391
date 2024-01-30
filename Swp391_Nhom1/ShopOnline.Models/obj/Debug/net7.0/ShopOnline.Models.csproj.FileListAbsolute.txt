@@ -21,3 +21,16 @@ C:\Users\ASUS\OneDrive\Desktop\New folder (2)\SWP391\Swp391_Nhom1\ShopOnline.Mod
 C:\Users\ASUS\OneDrive\Desktop\New folder (2)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\refint\ShopOnline.Models.dll
 C:\Users\ASUS\OneDrive\Desktop\New folder (2)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.pdb
 C:\Users\ASUS\OneDrive\Desktop\New folder (2)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ref\ShopOnline.Models.dll
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.deps.json
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.dll
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.pdb
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.csproj.AssemblyReference.cache
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.AssemblyInfoInputs.cache
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.AssemblyInfo.cs
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.csproj.CoreCompileInputs.cache
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.sourcelink.json
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.dll
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\refint\ShopOnline.Models.dll
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.pdb
+C:\Users\linhm\Downloads\SWP391\SWP_project\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ref\ShopOnline.Models.dll
