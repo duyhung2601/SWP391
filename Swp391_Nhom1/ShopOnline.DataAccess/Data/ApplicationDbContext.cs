@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopOnline.Models;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace ShopOnline.DataAccess.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         { 
@@ -15,6 +15,8 @@ namespace ShopOnline.DataAccess.Data
         public DbSet<Product> Products { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Category>().HasData(
                 new Category { Id = 1, Name = "Banh", DisplayOrder = 1 },
                 new Category { Id = 2, Name = "Keo", DisplayOrder = 2 },
@@ -33,7 +35,8 @@ namespace ShopOnline.DataAccess.Data
                     Price=90,
                     Price50=85,
                     Price100=80,
-                    CategoryId=1
+                    CategoryId=1,
+                    ImageUrl=""
 
                 },
                 new Product
@@ -47,7 +50,263 @@ namespace ShopOnline.DataAccess.Data
                     Price = 27,
                     Price50 = 25,
                     Price100 = 20,
-                    CategoryId = 2
+                    CategoryId = 2,
+                    ImageUrl=""
+
+                },
+                new Product
+                {
+                    Id = 3,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 4,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 5,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 6,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 7,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 8,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 9,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 10,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 11,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 12,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 13,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 14,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 15,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 16,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 17,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 18,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
+
+                },
+                new Product
+                {
+                    Id = 19,
+                    Name = "Bánh gạo An Tự Nhiên",
+                    Company = "MixiGaming",
+                    Description = "Den tu mixigaming",
+                    SKU = "220909100",
+                    ListPrice = 99,
+                    Price = 90,
+                    Price50 = 85,
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl = ""
 
                 }
                 );
