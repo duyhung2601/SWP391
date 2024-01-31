@@ -1,11 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using ShopOnline.DataAccess.Data;
 using ShopOnline.DataAccess.Repository.IRepository;
 using ShopOnline.Models;
+using ShopOnline.Utility;
 
 namespace ShopOnline.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles =Role.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -13,6 +16,7 @@ namespace ShopOnline.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
+
         public IActionResult Index()
         {
             List<Category> objCategoryList = _unitOfWork.Category.GetAll().ToList();
