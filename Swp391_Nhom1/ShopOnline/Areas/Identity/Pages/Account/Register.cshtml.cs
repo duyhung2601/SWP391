@@ -126,7 +126,7 @@ namespace ShopOnline.Areas.Identity.Pages.Account
                 _roleManager.CreateAsync(new IdentityRole(Role.Role_Customer)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(Role.Role_Employee)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(Role.Role_Admin)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(Role.Role_Company)).GetAwaiter().GetResult();
+                
 
             }
             Input = new()

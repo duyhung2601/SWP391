@@ -22,7 +22,7 @@ namespace ShopOnline.DataAccess.Data
                 new Category { Id = 1, Name = "Banh", DisplayOrder = 1 },
                 new Category { Id = 2, Name = "Keo", DisplayOrder = 2 },
                 new Category { Id = 3, Name = "Do uong", DisplayOrder = 3 },
-                new Category { Id = 4, Name = "Khac", DisplayOrder = 4 }
+                new Category { Id = 4, Name = "Khacc", DisplayOrder = 4 }
                 );
             modelBuilder.Entity<Product>().HasData(
                 new Product

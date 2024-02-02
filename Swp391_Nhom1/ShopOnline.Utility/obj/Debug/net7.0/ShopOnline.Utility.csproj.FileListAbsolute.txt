@@ -1,6 +1,7 @@
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\bin\Debug\net7.0\ShopOnline.Utility.deps.json
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\bin\Debug\net7.0\ShopOnline.Utility.dll
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\bin\Debug\net7.0\ShopOnline.Utility.pdb
+C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.csproj.AssemblyReference.cache
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.GeneratedMSBuildEditorConfig.editorconfig
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.AssemblyInfoInputs.cache
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnli
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\refint\ShopOnline.Utility.dll
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.pdb
 C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ref\ShopOnline.Utility.dll
-C:\swp391_nhom1\SWP391\Swp391_Nhom1\ShopOnline.Utility\obj\Debug\net7.0\ShopOnline.Utility.csproj.AssemblyReference.cache
