@@ -61,7 +61,7 @@ namespace ShopOnline.Areas.Customer.Controllers
             }
             
             _unitOfWork.Save();
-            TempData["success"] = "Successfully";
+            
             return RedirectToAction(nameof(Index));
         }
 
