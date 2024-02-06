@@ -45,7 +45,7 @@ namespace ShopOnline.DataAccess.Data
                     Id = 2,
                     Name = "Keo aphelibe",
                     Company = "MixiGaming",
-                    Description = "Den tu mixigamingggg",
+                    Description = "Den tu mixigaminggggg",
                     SKU = "220909101",
                     ListPrice = 30,
                     Price = 27,
