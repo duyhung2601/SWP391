@@ -271,7 +271,7 @@ namespace ShopOnline.DataAccess.Migrations
                         {
                             Id = 4,
                             DisplayOrder = 4,
-                            Name = "Khac"
+                            Name = "Khacc"
                         });
                 });
 
@@ -345,7 +345,7 @@ namespace ShopOnline.DataAccess.Migrations
                             Id = 2,
                             CategoryId = 2,
                             Company = "MixiGaming",
-                            Description = "Den tu mixigaming",
+                            Description = "Den tu mixigaminggggssssg",
                             ImageUrl = "",
                             ListPrice = 30.0,
                             Name = "Keo aphelibe",
@@ -594,6 +594,33 @@ namespace ShopOnline.DataAccess.Migrations
                         });
                 });
 
+            modelBuilder.Entity("ShopOnline.Models.ShoppingCart", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ShoppingCarts");
+                });
+
             modelBuilder.Entity("ShopOnline.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
@@ -677,6 +704,25 @@ namespace ShopOnline.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("ShopOnline.Models.ShoppingCart", b =>
+                {
+                    b.HasOne("ShopOnline.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ShopOnline.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+
+                    b.Navigation("Product");
                 });
 #pragma warning restore 612, 618
         }
