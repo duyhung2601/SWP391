@@ -15,6 +15,8 @@ namespace ShopOnline.DataAccess.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -29,9 +31,9 @@ namespace ShopOnline.DataAccess.Data
                 new Product
                 {
                     Id=1,
-                    Name= "Bánh gạo An Tự Nhiên",
+                    Name= "Bánh gạo An Tự Nhiên N",
                     Company ="MixiGaming",
-                    Description="Den tu mixigaming",
+                    Description="From Mixi With Love",
                     SKU= "220909100",
                     ListPrice=99,
                     Price=90,
