@@ -56,7 +56,7 @@ namespace ShopOnline.DataAccess.Data
                     Price100 = 20,
                     CategoryId = 2,
                     ImageUrl=""
-
+                    
                 },
                 new Product
                 {
@@ -93,7 +93,7 @@ namespace ShopOnline.DataAccess.Data
                     Id = 5,
                     Name = "Bánh gạo An Tự Nhiên",
                     Company = "MixiGaming",
-                    Description = "Den tu mixigaming",
+                    Description = "Den tu mixigaming with love",
                     SKU = "220909100",
                     ListPrice = 99,
                     Price = 90,
