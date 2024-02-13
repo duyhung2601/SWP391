@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nYQr18kHy95RITtZPgLxVcc+hYvtUrNWYqo9mSWyA/3puR+WkoPryAfh9ILHDm0oOaf5BpUhoYlLmsDb1g/k/g==",
+  "dgSpecHash": "oA8HUbTp3/LBtUUEF7AjgogRvgwj2OhCD9JdDDBRjnvR3HyjklkmCbjga9ZkMamRd9SNV9rD2jxoFYvyeM2wAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N1\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
+  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N2\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\2.2.0\\microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\2.2.0\\microsoft.aspnetcore.cryptography.keyderivation.2.2.0.nupkg.sha512",

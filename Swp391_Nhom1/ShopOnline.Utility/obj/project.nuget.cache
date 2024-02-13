@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "afMkIMlzamJ1y7I2MVUvIuvt0FBTOr/R1WsH3qAX1jgheG2mVjhd8BAMLJeQDNO6fYl0b9N2VIgHkPBdkHnIZw==",
+  "dgSpecHash": "T3xut18Ck67k1/irOGqphQKi7by82yvNTxne/6FWhwLP2j4F2WPhlFc+1w4DKO7nTHqMRa+5UdHeV/T+L/dCyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N1\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj",
+  "projectFilePath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N2\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.15\\microsoft.aspnetcore.cryptography.internal.7.0.15.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.15\\microsoft.aspnetcore.cryptography.keyderivation.7.0.15.nupkg.sha512",
