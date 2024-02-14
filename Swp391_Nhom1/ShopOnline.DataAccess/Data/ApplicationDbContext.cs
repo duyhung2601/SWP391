@@ -25,7 +25,7 @@ namespace ShopOnline.DataAccess.Data
                 new Product
                 {
                     Id=1,
-                    Name= "Bánh gạo An Tự Nhiên",
+                    Name= "Bánh gạo An Tự Nhiên.",
                     Company ="MixiGaming",
                     Description="Den tu mixigaming",
                     SKU= "220909100",
@@ -39,7 +39,7 @@ namespace ShopOnline.DataAccess.Data
                 new Product
                 {
                     Id = 2,
-                    Name = "Keo aphelibe",
+                    Name = "Keo aphelibe.",
                     Company = "MixiGaminggg",
                     Description = "Den tu mixigaming",
                     SKU = "220909101",
