@@ -39,7 +39,7 @@ namespace ShopOnline.DataAccess.Data
                 new Product
                 {
                     Id = 2,
-                    Name = "Keo aphelibe",
+                    Name = "Keo aphelibe ",
                     Company = "MixiGaminggg",
                     Description = "Den tu mixigaming",
                     SKU = "220909101",
