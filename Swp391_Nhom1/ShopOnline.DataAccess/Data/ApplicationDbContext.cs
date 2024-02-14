@@ -301,7 +301,7 @@ namespace ShopOnline.DataAccess.Data
                 new Product
                 {
                     Id = 19,
-                    Name = "Bánh gạo An Tự Nhiên",
+                    Name = "Bánh gạo An Tự Nhiên.",
                     Company = "MixiGaming",
                     Description = "Den tu mixigaming",
                     SKU = "220909100",

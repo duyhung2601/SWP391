@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N2\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N2\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N2\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
         "projectName": "ShopOnline.Models",
-        "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N2\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391N2\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

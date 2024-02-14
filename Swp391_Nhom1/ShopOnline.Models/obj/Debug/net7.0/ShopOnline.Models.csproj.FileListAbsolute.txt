@@ -33,3 +33,15 @@ C:\Users\admin\OneDrive\Desktop\SWP391N2\SWP391\Swp391_Nhom1\ShopOnline.Models\o
 C:\Users\admin\OneDrive\Desktop\SWP391N2\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\refint\ShopOnline.Models.dll
 C:\Users\admin\OneDrive\Desktop\SWP391N2\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.pdb
 C:\Users\admin\OneDrive\Desktop\SWP391N2\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ref\ShopOnline.Models.dll
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.deps.json
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.dll
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.pdb
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.dll
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\refint\ShopOnline.Models.dll
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.pdb
+C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ref\ShopOnline.Models.dll
