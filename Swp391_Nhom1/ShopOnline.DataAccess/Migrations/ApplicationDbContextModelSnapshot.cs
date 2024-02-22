@@ -489,7 +489,7 @@ namespace ShopOnline.DataAccess.Migrations
                             Id = 5,
                             CategoryId = 1,
                             Company = "MixiGaming",
-                            Description = "Den tu mixigaming",
+                            Description = "Den tu mixigaming with love",
                             ImageUrl = "",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
@@ -688,7 +688,7 @@ namespace ShopOnline.DataAccess.Migrations
                             Description = "Den tu mixigaming",
                             ImageUrl = "",
                             ListPrice = 99.0,
-                            Name = "Bánh gạo An Tự Nhiên",
+                            Name = "Bánh gạo An Tự Nhiên.",
                             Price = 90.0,
                             Price100 = 80.0,
                             Price50 = 85.0,
@@ -721,6 +721,32 @@ namespace ShopOnline.DataAccess.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ShoppingCarts");
+                });
+
+            modelBuilder.Entity("ShopOnline.Models.Slider", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Sliders");
                 });
 
             modelBuilder.Entity("ShopOnline.Models.ApplicationUser", b =>

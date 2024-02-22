@@ -3081,19 +3081,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\Hieuhihi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj",
       "projectName": "ShopOnline.DataAccess",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Hieuhihi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hieuhihi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3107,8 +3107,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-              "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\New folder (3)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
+            "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+              "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
             }
           }
         }
@@ -3158,7 +3158,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

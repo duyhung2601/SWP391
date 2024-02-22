@@ -1,0 +1,15 @@
+﻿using ShopOnline.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ShopOnline.DataAccess.Repository.IRepository
+{
+    public interface ISliderRepository : IRepository<Slider>
+    {
+        void Update(Slider obj);
+
+    }
+}

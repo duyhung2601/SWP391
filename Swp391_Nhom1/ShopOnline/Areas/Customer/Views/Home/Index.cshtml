@@ -1,6 +1,14 @@
-﻿@model IEnumerable<Product>
+﻿@model ProductHomeViewModel
+
+<div class="owl-carousel">
+    @foreach (var slider in Model.Sliders)
+    {
+        <div class="item"><img style="width:50%;height:50%" src="@slider.ImageUrl" class="card-img-top rounded" /></div>
+    }
+</div>
+
 <div class="row pb-3">
-        @foreach(var product in Model)
+        @foreach(var product in Model.Products)
     {
         <div class="col-lg-3 col-sm-6">
             <div class="row p-2">
@@ -31,3 +39,7 @@
         </div>
     }
 </div>
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+}
