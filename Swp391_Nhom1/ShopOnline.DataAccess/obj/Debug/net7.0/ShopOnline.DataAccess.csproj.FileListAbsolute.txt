@@ -66,6 +66,23 @@ C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Dat
 C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.pdb
 C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ref\ShopOnline.DataAccess.dll
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.deps.json
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.runtimeconfig.json
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.dll
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.pdb
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.Models.dll
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.Models.pdb
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.AssemblyInfo.cs
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.csproj.CopyComplete
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.dll
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\refint\ShopOnline.DataAccess.dll
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.pdb
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.genruntimeconfig.cache
+C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ref\ShopOnline.DataAccess.dll
 C:\Users\shitm\Downloads\Compressed\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.deps.json
 C:\Users\shitm\Downloads\Compressed\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.runtimeconfig.json
 C:\Users\shitm\Downloads\Compressed\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.dll
