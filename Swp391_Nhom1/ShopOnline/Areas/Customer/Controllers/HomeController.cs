@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ShopOnline.DataAccess.Repository;
 using ShopOnline.DataAccess.Repository.IRepository;
 using ShopOnline.Models;
+using ShopOnline.Models.ViewModels;
 using System.Diagnostics;
 using System.Security.Claims;
 
@@ -22,8 +23,25 @@ namespace ShopOnline.Areas.Customer.Controllers
 
         public IActionResult Index()
         {
+            var productHomeVM = new ProductHomeViewModel();
             IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category");
-            return View(productList);
+            productHomeVM.Products = productList.Select(x => new ProductViewModel
+            {
+                   Id = x.Id,
+                   Name = x.Name,
+                   ImageUrl= x.ImageUrl,
+                   Company = x.Company,
+                   Price100 = x.Price100,
+                   ListPrice = x.ListPrice
+            });
+            
+            IEnumerable<Slider> sliderList= _unitOfWork.Slider.GetAll();
+
+            productHomeVM.Sliders = sliderList.Select(x => new SliderViewModel
+            {
+                ImageUrl = x.ImageUrl,
+            });
+            return View(productHomeVM);
         }
         public IActionResult Details(int productId)
         {

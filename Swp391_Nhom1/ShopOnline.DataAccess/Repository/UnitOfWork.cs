@@ -15,6 +15,7 @@ namespace ShopOnline.DataAccess.Repository
         private readonly ApplicationDbContext _db;
         public ICategoryRepository Category{ get; private set; }
         public IProductRepository Product { get; private set; }
+        public ISliderRepository Slider { get; private set; }
         public IShoppingCartRepository ShoppingCart { get; private set; }
         public IApplicationUserRepository ApplicationUser { get; private set; }
         public IOrderDetailRepository OrderDetail { get; private set; }
@@ -24,6 +25,7 @@ namespace ShopOnline.DataAccess.Repository
             _db = db;
             Category= new CategoryRepository(_db);
             Product = new ProductRepository(_db);
+            Slider = new SliderRepository(_db);
             ShoppingCart = new ShoppingCartRepository(_db);
             ApplicationUser = new ApplicationUserRepository(_db);
             OrderDetail = new OrderDetailRepository(_db);
