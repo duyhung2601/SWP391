@@ -45,17 +45,6 @@ C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Mod
 C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\refint\ShopOnline.Models.dll
 C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.pdb
 C:\Users\ASUS\OneDrive\Desktop\New folder (3)\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ref\ShopOnline.Models.dll
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.deps.json
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.dll
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.pdb
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.AssemblyInfoInputs.cache
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.AssemblyInfo.cs
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.csproj.CoreCompileInputs.cache
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.dll
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\refint\ShopOnline.Models.dll
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ShopOnline.Models.pdb
-C:\Users\Hieuhihi\Desktop\SWP391\Swp391_Nhom1\ShopOnline.Models\obj\Debug\net7.0\ref\ShopOnline.Models.dll
 C:\Users\shitm\Downloads\Compressed\SWP391\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.deps.json
 C:\Users\shitm\Downloads\Compressed\SWP391\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.dll
 C:\Users\shitm\Downloads\Compressed\SWP391\SWP391\Swp391_Nhom1\ShopOnline.Models\bin\Debug\net7.0\ShopOnline.Models.pdb
