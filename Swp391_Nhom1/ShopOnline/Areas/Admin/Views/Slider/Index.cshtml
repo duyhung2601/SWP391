@@ -1,0 +1,40 @@
+﻿@model List<Slider>
+<partial name="_Notification" />
+
+
+<div class="container">
+    <div class="row pt-4 pb-5">
+        <div class="col-6">
+            <h2 class="text-primary">Slider List</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Slider" asp-action="Upsert" class="btn btn-primary">
+                Create New Slider
+            </a>
+
+        </div>
+
+    </div>
+</div>
+<table id="tblSlider" class="table table-bordered table-striped" style="width: 100%">
+    <thead>
+        <tr>
+            <th>
+                Image
+            </th>
+            <th>
+                Slider Name
+            </th>
+            <th>
+                Description
+            </th>
+            
+            <th></th>
+
+        </tr>
+    </thead>
+
+</table>
+@section Scripts {
+    <script src="~/js/Slider.js"></script>
+}

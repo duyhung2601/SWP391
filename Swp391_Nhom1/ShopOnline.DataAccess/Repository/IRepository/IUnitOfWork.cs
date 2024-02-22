@@ -10,6 +10,7 @@ namespace ShopOnline.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category{ get; }
         IProductRepository Product { get; }
+        ISliderRepository Slider { get; }
         IShoppingCartRepository ShoppingCart { get; }
         IApplicationUserRepository ApplicationUser { get; }
         IOrderRepository Order { get; }
