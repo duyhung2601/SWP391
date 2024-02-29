@@ -46,7 +46,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\0c85de81-b4a9-4f22-8038-3bd8c3ff5650.png"
 
                 },
                 new Product
@@ -61,7 +61,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 25,
                     Price100 = 20,
                     CategoryId = 2,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\1450932b-2be4-4fb3-90c0-b92218a8f557.jpg"
 
                 },
                 new Product
@@ -76,7 +76,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\14b1abde-5c10-4bca-8b03-6b455420aedf.jpg"
 
                 },
                 new Product
@@ -91,7 +91,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\301b0b25-267c-4706-a0e5-795139af09a9.jpg"
 
                 },
                 new Product
@@ -106,7 +106,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\1450932b-2be4-4fb3-90c0-b92218a8f557.jpg"
 
                 },
                 new Product
@@ -121,7 +121,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\404631437_282893548080508_6086691714179850617_n.jpg"
 
                 },
                 new Product
@@ -136,7 +136,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\41cd4ece-6dce-47aa-8a0f-d9547b03a64c.jpg"
 
                 },
                 new Product
@@ -151,7 +151,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\4243412e-9dce-4517-9cb9-d46558b9faf7.jpg"
 
                 },
                 new Product
@@ -166,7 +166,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\1450932b-2be4-4fb3-90c0-b92218a8f557.jpg"
 
                 },
                 new Product
@@ -181,7 +181,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\5b29925c-33ea-459e-be45-ef69f388748d.jpg"
 
                 },
                 new Product
@@ -196,7 +196,7 @@ namespace ShopOnline.DataAccess.Data
                     Price50 = 85,
                     Price100 = 80,
                     CategoryId = 1,
-                    ImageUrl = ""
+                    ImageUrl = "\\images\\product\\5c2c824d-91a1-4b32-9b61-ff894ef9529e.jpg"
 
                 },
                 new Product

@@ -434,7 +434,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "From Mixi With Love",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\0c85de81-b4a9-4f22-8038-3bd8c3ff5650.png",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên N",
                             Price = 90.0,
@@ -448,7 +448,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 2,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaminggggssssg",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\1450932b-2be4-4fb3-90c0-b92218a8f557.jpg",
                             ListPrice = 30.0,
                             Name = "Keo aphelibe",
                             Price = 27.0,
@@ -462,7 +462,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\14b1abde-5c10-4bca-8b03-6b455420aedf.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -476,7 +476,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\301b0b25-267c-4706-a0e5-795139af09a9.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -490,7 +490,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming with love",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\1450932b-2be4-4fb3-90c0-b92218a8f557.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -504,7 +504,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\404631437_282893548080508_6086691714179850617_n.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -518,7 +518,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\41cd4ece-6dce-47aa-8a0f-d9547b03a64c.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -532,7 +532,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\4243412e-9dce-4517-9cb9-d46558b9faf7.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -546,7 +546,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\1450932b-2be4-4fb3-90c0-b92218a8f557.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -560,7 +560,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\5b29925c-33ea-459e-be45-ef69f388748d.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -574,7 +574,7 @@ namespace ShopOnline.DataAccess.Migrations
                             CategoryId = 1,
                             Company = "MixiGaming",
                             Description = "Den tu mixigaming",
-                            ImageUrl = "",
+                            ImageUrl = "\\images\\product\\5c2c824d-91a1-4b32-9b61-ff894ef9529e.jpg",
                             ListPrice = 99.0,
                             Name = "Bánh gạo An Tự Nhiên",
                             Price = 90.0,
@@ -747,6 +747,29 @@ namespace ShopOnline.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sliders");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "sl1",
+                            ImageUrl = "\\images\\slider\\3465d5e5-3259-4ba1-bed4-dab527431481.png",
+                            Name = "sl1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "sl2",
+                            ImageUrl = "\\images\\slider\\b63cb4d0-bbba-41db-93e4-ff6c5d7d65e9.png",
+                            Name = "sl2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "sl3",
+                            ImageUrl = "\\images\\slider\\c0fd6f84-67f7-4b84-8398-4a98d20968ae.jpg",
+                            Name = "sl3"
+                        });
                 });
 
             modelBuilder.Entity("ShopOnline.Models.ApplicationUser", b =>

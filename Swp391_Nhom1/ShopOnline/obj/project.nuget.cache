@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pbAD6QOsuLzdEWyv1BTQRMfne68ykr/Gr5WDKyb7E07xVUmYm+p2PZJUMGCsmqeOr11SuIdsml+hT+f8W8f00w==",
+  "dgSpecHash": "Uf9s68yV1+2cSaldKZdw3eHs+tgQqFqh9hReO2i+zEDwh3sRltBmtuhn6R5cGPRc0uUw7f5+Q1TuM8Ffz4uKzg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
+  "projectFilePath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hieuhihi\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Hieuhihi\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
