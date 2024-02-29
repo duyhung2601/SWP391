@@ -51,4 +51,3 @@ function Delete(url) {
         }
     });
 }
-

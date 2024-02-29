@@ -6,11 +6,29 @@
     <title>ShopOnline</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/lib/owlCarousel/dist/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="~/lib/owlCarousel/dist/assets/owl.theme.default.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ShopOnline.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" />
     <link rel="stylesheet" href="//cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css" />
 
+    <script type="text/javascript">
+
+        window.onload = load();
+
+        function load() {
+            $('.owl-one').owlCarousel({
+                autoplay: true,
+                loop: true,
+                items: 1,
+                nav: false,
+                dotSpeed: 100,
+            })
+
+            
+        }
+
+
+    </script>
 </head>
 <body>
     <header>
@@ -36,7 +54,7 @@
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Content Management
+                                    Admin Management
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
@@ -73,11 +91,67 @@
         </main>
     </div>
 
-    <footer class="border-top footer bg-primary text-muted">
-        <div class="container">
-            Online Shop
+    <div class="footer p-5">
+        <div class="responsive">
+            <div class="footer-container">
+                <div class="footer-container-content">
+                    <div class="footer-container-content-list">
+                        <div class="footer-container-content-list__heading1">
+                            Contact Info
+                        </div>
+                        <div class="footer-container-content-list-text1">
+                            <p>
+                                Hà Nội: Xã An Thượng, H. Hoài Đức,
+                                TP. Hà Nội
+                                <br>
+                                <br>
+                                Hồ Chí Minh: Cảng Tân Cảng - Phú Hữu,
+                                P. Phú Hữu, Quận 9, TP. Thủ Đức, TP. HCM
+                                <br>
+                                <br>
+                                + Tell: <span>096.6711.955</span>
+                                <br>
+                                <br>
+                                + Gmal: <span>Hotro@onlineshop.vn</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-container-content-list">
+                        <div class="footer-container-content-list__heading">
+                            About Online Shop
+                        </div>
+                        <div class="footer-container-content-list-text">
+                            <p>Introduction</p>
+                            <p>Hiring</p>
+                            <p>Gallery</p>
+                        </div>
+                    </div>
+                    <div class="footer-container-content-list">
+                        <div class="footer-container-content-list__heading">
+                            Products
+                        </div>
+                        <div class="footer-container-content-list-text">
+                            <p>Rice Cake</p>
+                            <p>Nest Slim</p>
+                            <p>Sweet Cake</p>
+                            <p>Soul Cake</p>
+                            <p>Egg Cake</p>
+                        </div>
+                    </div>
+                    <div class="footer-container-content-list">
+                        <div class="footer-container-content-list__heading">
+                            Policy
+                        </div>
+                        <div class="footer-container-content-list-text">
+                            <p>Payment policy</p>
+                            <p>Transportation policy</p>
+                            <p>Selling policy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/owlCarousel/dist/owl.carousel.min.js" />
