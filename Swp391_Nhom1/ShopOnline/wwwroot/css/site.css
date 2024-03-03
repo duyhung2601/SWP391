@@ -1,116 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-}
 html {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+  html {
+    font-size: 16px;
+  }
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
-.footer {
-    height: auto;
-    background-color: #325d88;
-}
-
-    .footer .footer-container-content {
-        display: flex;
-        border-top: 1px solid rgba(255, 255, 255, 0.671);
-    }
-
-    .footer .footer-container-content-list {
-        min-width: 185px;
-        padding-right: 50px;
-    }
-
-    .footer .footer-container-content-list__heading,
-    .footer .footer-container-content-list__heading1 {
-        font-size: 22px;
-        font-family: 'SVN-Gotham Bold';
-        color: #fff;
-        padding: 35px 0;
-    }
-
-    .footer .footer-container-content-list-text,
-    .footer .footer-container-content-list-text1 {
-        color: rgba(255, 255, 255, 0.637);
-        font-family: 'SVN-Gotham Book';
-        font-size: 16px;
-        max-width: 365px;
-        margin-bottom:0 !important;
-    }
-
-        .footer .footer-container-content-list-text p:hover {
-            color: #d80f0f;
-            cursor: pointer;
-        }
-
-        .footer .footer-container-content-list-text1 p span {
-            color: #d80f0f;
-        }
-
-    .footer .footer-container-contact {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.671);
-    }
-
-    .footer .footer-container-contact-top {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-        .footer .footer-container-contact-top p {
-            font-size: 22px;
-            font-family: 'SVN-Gotham Bold';
-            color: #fff;
-        }
-
-    .footer .footer-container-contact-top__line {
-        border-top: 1px solid rgba(255, 255, 255, 0.671);
-        width: 85%;
-    }
-
-    .footer .footer-container-contact-bottom {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-bottom: 10px;
-    }
-
-    .footer .footer-container-contact-bottom-left {
-        cursor: pointer;
-    }
-
-    .footer .footer-container-contact-bottom-right {
-        padding-right: 175px;
-    }
-
-    .footer .footer-container-cre {
-        text-align: center;
-        color: rgba(255, 255, 255, 0.623);
-        font-family: 'SVN-Gotham Light';
-        font-size: 14px;
-        padding: 20px 0;
-    }
-
-.hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(/images/product/bg-hero.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*body {
+  margin-bottom: 60px;
+}*/

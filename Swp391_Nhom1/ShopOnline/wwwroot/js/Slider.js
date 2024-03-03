@@ -51,3 +51,4 @@ function Delete(url) {
         }
     });
 }
+

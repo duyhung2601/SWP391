@@ -12013,11 +12013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
+      "projectUniqueName": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
       "projectName": "ShopOnline",
-      "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
+      "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
       "packagesPath": "C:\\Users\\Hieuhihi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline\\obj\\",
+      "outputPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hieuhihi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12034,14 +12034,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj"
+            "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj"
             },
-            "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-              "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
+            "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+              "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
             },
-            "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj": {
-              "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391 (1)\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj"
+            "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj": {
+              "projectPath": "C:\\Users\\Hieuhihi\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj"
             }
           }
         }

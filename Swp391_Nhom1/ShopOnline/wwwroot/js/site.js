@@ -2,20 +2,13 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-window.onload = load();
-
-function load() {
-    $('.owl-one').owlCarousel({
-        autoplay: true,
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        item:1,
         loop: true,
+        autoplayTimeout: 3000,
         margin: 10,
-        items: 1,
         nav: true,
-        dotSpeed: 100,
+        autoplay: true,
     })
-
-    var owl = $('.owl-carousel');
-    $('.owl-dot').click(function () {
-        owl.trigger('to.owl.carousel', [$(this).index(), 300]);
-    });
-}
+});

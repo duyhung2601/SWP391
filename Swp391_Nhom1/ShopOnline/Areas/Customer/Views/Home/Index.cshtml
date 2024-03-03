@@ -1,217 +1,47 @@
 ﻿@model ProductHomeViewModel
-
-<div class="container-xxl py-5 bg-dark hero-header mb-5">
-    <div class="container my-5 py-5">
-        <div class="row align-items-center g-5">
-            <div class="col-lg-6 text-center text-lg-start">
-                <h1 class="display-3 text-white animated slideInLeft">
-                    Nutritious gift<br />
-                    Instead of words of love
-
-                </h1>
-                <p class="text-white animated slideInLeft mb-4 pb-2">
-                    Bird's Nest belongs to the rich food group
-                    nutritious, containing many amino acids, macro and microelements, they belong to the category of "food".
-                    Premium" in Asia helps nourish your health extremely well
-
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="container-xxl py-5">
-    <div class="container">
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-6">
-                <div class="row g-3">
-                    <div class="col-6 text-start">
-                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s"
-                             src="/images/product/0c85de81-b4a9-4f22-8038-3bd8c3ff5650.png">
-                    </div>
-                    <div class="col-6 text-start">
-                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s"
-                             src="/images/product/301b0b25-267c-4706-a0e5-795139af09a9.jpg" style="margin-top: 25%;">
-                    </div>
-                    <div class="col-6 text-end">
-                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s"
-                             src="/images/product/9a613880-61b2-47da-80f3-5b512d4a13d5.jpg">
-                    </div>
-                    <div class="col-6 text-end">
-                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s"
-                             src="/images/product/4243412e-9dce-4517-9cb9-d46558b9faf7.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <h5 class="section-title ff-secondary text-start text-primary fw-normal">Introduction</h5>
-                <h1 class="mb-4">ONLINE SHOP</h1>
-                <p class="mb-4">
-                    Bird's nest is the saliva of the bird's nest, so the quality of the bird's nest will depend on the food and water source where the bird resides. Bird's nests in different regions will also have different nutritional content and flavors. However, when it comes to bird's nests, no one can deny the reputation and quality that comes from Khanh Hoa bird's nests, also fondly called "king's nests".
-
-                </p>
-                <p class="mb-4">
-                    Nha Trang bird's nest products are taken from bird nests that have nutritional value
-                    The most nutritious is Hang Hang's bird's nest - Aerodramus Fuciphagus Germani. Khanh Hoa bird's nest is small but
-                    very dense, a bird's nest will weigh about 7-12g, bird's nest fibers are also quite small and easily broken during the process.
-                    cleaning, so when making bird's nest, you need to be skillful and careful.
-                </p>
-                <div class="row g-4 mb-4">
-                    <div class="col-sm-6">
-                        <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                            <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">
-                                10
-                            </h1>
-                            <div class="ps-4">
-                                <p class="mb-0">Year of</p>
-                                <h6 class="text-uppercase mb-0">Exp</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                            <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">
-                                300
-                            </h1>
-                            <div class="ps-4">
-                                <p class="mb-0">Customer</p>
-                                <h6 class="text-uppercase mb-0">Close</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="#">Read more</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row pb-3 mt-5">
-    <h1 class="pt-2" style="border-top: 0.3px solid rgba(15, 23, 43, .2)">Outstanding Product</h1>
-    <div class="owl-carousel owl-theme">
-        @foreach (var slider in Model.Sliders)
-        {
+<h1>What do we have?</h1>
+<div class="owl-carousel">
+    @foreach (var slider in Model.Sliders)
+    {
             <div class="item rounded d-flex justify-content-center">
                 <div class="mt-5 mb-5 d-flex justify-content-center" style="width:300px;height:200px">
                     <img style="" src="@slider.ImageUrl" class="rounded" />
                 </div>
             </div>
         }
-    </div>
-
 </div>
-
-<div class="row pb-3 mt-5">
-    <h1 class="pt-2" style="border-top: 0.3px solid rgba(15, 23, 43, .2)">Product List</h1>
-    @foreach (var product in Model.Products)
+<h1>Our Product!!!</h1>
+<div class="row pb-3">
+        @foreach(var product in Model.Products)
     {
         <div class="col-lg-3 col-sm-6">
             <div class="row p-2">
                 <div class="col-12 p-1">
                     <div class="card border-0 p-3 shadow border-top border-5 rounded">
-                        @if (@product.ImageUrl != "")
-                        {
-                            <div class="card-img-top"><img src="@product.ImageUrl" class="card-img-top rounded" /></div>
-                        }
-                        else
-                        {
-                            <div class="card-img-top" ><img src="/images//product/empty.jpg" class="card-img-top rounded" /></div>
-                        }
+                        <img src="@product.ImageUrl" class="card-img-top rounded"/>
                         <div class="card-body pb-0">
-                            <div class="pl-1">
-                                <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Name</p>
-                                <p class="card-title text-warning text-center">by <b>@product.Company</b></p>
-                            </div>
+                           <div class="pl-1">
+                              <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Name</p>
+                              <p class="card-title text-warning text-center">by <b>@product.Company</b></p>
+                           </div>
                             <div class="pl-1">
                                 <p class="text-dark opacity-75  text-center">
-                                    List Price:<span class="text-decoration-line-through">@product.ListPrice.ToString("c")</span>
-                                </p>
+                                    List Price:<span class="text-decoration-line-through">@product.ListPrice.ToString("c")</span></p>                                
                             </div>
                             <div class="pl-1">
                                 <p class="text-dark opacity-75  text-center">As low as: <span>@product.Price100.ToString("c")</span></p>
                             </div>
-                        </div>
-                        <div>
-                            <a asp-action="Details" asp-route-productId="@product.Id"
-                               class="btn btn-primary bg-gradient border-0 form-control">Details</a>
-                        </div>
-                    </div>
+                       </div>
+                       <div>
+                           <a asp-action="Details"  asp-route-productId="@product.Id"
+                           class="btn btn-primary bg-gradient border-0 form-control">Details</a>
+                       </div>
+                   </div>
                 </div>
 
             </div>
         </div>
     }
-</div>
-
-<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container">
-        <div class="text-center">
-            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Testimonial</h5>
-            <h1 class="mb-5">Our Client!!!</h1>
-        </div>
-        <div class="owl-carousel testimonial-carousel">
-            <div class="testimonial-item bg-transparent border rounded p-4">
-                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                <p>
-                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore
-                    diam
-                </p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="/images/product/testimonial-1.jpg"
-                         style="width: 50px; height: 50px;">
-                    <div class="ps-3">
-                        <h5 class="mb-1">Client Name</h5>
-                        <small>Profession</small>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-item bg-transparent border rounded p-4">
-                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                <p>
-                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore
-                    diam
-                </p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="/images/product/testimonial-2.jpg"
-                         style="width: 50px; height: 50px;">
-                    <div class="ps-3">
-                        <h5 class="mb-1">Client Name</h5>
-                        <small>Profession</small>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-item bg-transparent border rounded p-4">
-                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                <p>
-                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore
-                    diam
-                </p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="/images/product/testimonial-3.jpg"
-                         style="width: 50px; height: 50px;">
-                    <div class="ps-3">
-                        <h5 class="mb-1">Client Name</h5>
-                        <small>Profession</small>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-item bg-transparent border rounded p-4">
-                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                <p>
-                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore
-                    diam
-                </p>
-                <div class="d-flex align-items-center">
-                    <img class="img-fluid flex-shrink-0 rounded-circle" src="~/images/product/testimonial-4.jpg"
-                         style="width: 50px; height: 50px;">
-                    <div class="ps-3">
-                        <h5 class="mb-1">Client Name</h5>
-                        <small>Profession</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 @section Scripts {
