@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using ShopOnline.DataAccess.Repository.IRepository;
+using ShopOnline.Models;
+using ShopOnline.Models.ViewModels;
 
 namespace ShopOnline.Areas.Identity.Pages.Account.Manage
 {
@@ -16,7 +20,15 @@ namespace ShopOnline.Areas.Identity.Pages.Account.Manage
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly IUnitOfWork _unitOfWork;
+        [BindProperty]
+        public OrderVM OrderVM { get; set; }
+        public IndexModel(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
 
+        [ActivatorUtilitiesConstructor]
         public IndexModel(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager)
@@ -58,24 +70,49 @@ namespace ShopOnline.Areas.Identity.Pages.Account.Manage
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
+            [Display(Name = "Address")]
+            public string Address { get; set; }
+
+            [Display(Name = "Name")]
+            public string Name { get; set; }
+
+            [Display(Name = "City")]
+            public string City { get; set; }
+            [Display(Name = "State")]
+            public string State { get; set; }
+            [Display(Name = "Zip Code")]
+            public string PostalCode { get; set; }
         }
 
-        private async Task LoadAsync(IdentityUser user)
+        private async Task LoadAsync(ApplicationUser user)
         {
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+
+            var address = user.StreetAdress; // Giả sử có một thuộc tính Address trong user model
+            var name = user.Name; // Giả sử có một thuộc tính Name trong user model
+            var city = user.City;
+            var state = user.State;
+            var zipCode = user.PostalCode;
+
 
             Username = userName;
 
             Input = new InputModel
             {
-                PhoneNumber = phoneNumber
+                PhoneNumber = phoneNumber,
+                Address = address,
+                Name = name,
+                City = city,
+                State = state,
+                PostalCode = zipCode
             };
         }
 
+
         public async Task<IActionResult> OnGetAsync()
         {
-            var user = await _userManager.GetUserAsync(User);
+            var user = await _userManager.GetUserAsync(User) as ApplicationUser;
             if (user == null)
             {
                 return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
@@ -87,7 +124,7 @@ namespace ShopOnline.Areas.Identity.Pages.Account.Manage
 
         public async Task<IActionResult> OnPostAsync()
         {
-            var user = await _userManager.GetUserAsync(User);
+            var user = await _userManager.GetUserAsync(User) as ApplicationUser;
             if (user == null)
             {
                 return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
@@ -110,7 +147,20 @@ namespace ShopOnline.Areas.Identity.Pages.Account.Manage
                 }
             }
 
+            // Cập nhật tất cả thông tin của người dùng
+            user.StreetAdress = Input.Address;
+            user.Name = Input.Name;
+            user.City = Input.City;
+            user.State = Input.State;
+            user.PostalCode = Input.PostalCode;
+
+            // Lưu các thay đổi
+            await _userManager.UpdateAsync(user);
+
+            // Refresh token đăng nhập
             await _signInManager.RefreshSignInAsync(user);
+
+            // Đặt thông báo thành công và chuyển hướng trang
             StatusMessage = "Your profile has been updated";
             return RedirectToPage();
         }
