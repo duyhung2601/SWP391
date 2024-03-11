@@ -1,49 +1,184 @@
-﻿@model ProductHomeViewModel
-<h1>What do we have?</h1>
-<div class="owl-carousel">
-    @foreach (var slider in Model.Sliders)
-    {
-            <div class="item rounded d-flex justify-content-center">
-                <div class="mt-5 mb-5 d-flex justify-content-center" style="width:300px;height:200px">
-                    <img style="" src="@slider.ImageUrl" class="rounded" />
-                </div>
-            </div>
-        }
-</div>
-<h1>Our Product!!!</h1>
-<div class="row pb-3">
-        @foreach(var product in Model.Products)
-    {
-        <div class="col-lg-3 col-sm-6">
-            <div class="row p-2">
-                <div class="col-12 p-1">
-                    <div class="card border-0 p-3 shadow border-top border-5 rounded">
-                        <img src="@product.ImageUrl" class="card-img-top rounded"/>
-                        <div class="card-body pb-0">
-                           <div class="pl-1">
-                              <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Name</p>
-                              <p class="card-title text-warning text-center">by <b>@product.Company</b></p>
-                           </div>
-                            <div class="pl-1">
-                                <p class="text-dark opacity-75  text-center">
-                                    List Price:<span class="text-decoration-line-through">@product.ListPrice.ToString("c")</span></p>                                
-                            </div>
-                            <div class="pl-1">
-                                <p class="text-dark opacity-75  text-center">As low as: <span>@product.Price100.ToString("c")</span></p>
-                            </div>
-                       </div>
-                       <div>
-                           <a asp-action="Details"  asp-route-productId="@product.Id"
-                           class="btn btn-primary bg-gradient border-0 form-control">Details</a>
-                       </div>
-                   </div>
-                </div>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Gamepad</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    @*  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> *@
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+<body>
 
+    <div class="banner_section layout_padding">
+        <div class="container">
+            <div id="my_slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="video_text">Nhom 1</h1>
+                                <h1 class="controller_text">shop</h1>
+                                <p class="banner_text">Nhom 1 SWP391 </p>
+                                <div class="shop_bt"><a href="/Customer/Shop">Shop Now</a></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="image_1"><img src="images/img-1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="video_text">Chi nhanh</h1>
+                                <h1 class="controller_text">toan quoc</h1>
+                                <p class="banner_text">Chung toi cung cap cho moi noi tren VN</p>
+                                <div class="shop_bt"><a href="/Customer/Shop">Shop Now</a></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="image_1"><img src="images/img-1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1 class="video_text">Dich vu</h1>
+                                <h1 class="controller_text">Nhanh chong</h1>
+                                <p class="banner_text">Ship nhanh chong</p>
+                                <div class="shop_bt"><a href="/Customer/Shop">Shop Now</a></div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="image_1"><img src="images/img-1.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                </a>
             </div>
         </div>
-    }
-</div>
+    </div>
+    <!-- banner section end -->
+    <!-- about section start -->
+    <div class="about_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image_2"><img src="images/img-2.png"></div>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="about_text">ABOUT</h1>
+                    <p class="lorem_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+                    <div class="shop_bt_2"><a href="/Customer/Shop">Shop Now</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about section end -->
+    <!-- product section start -->
+    <div class="product_section layout_padding">
+        <div class="container">
+            <div class="product_text">Our <span style="color: #5ca0e9;">products</span></div>
 
-@section Scripts {
-    <script src="~/js/site.js"></script>
-}
+            <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem</p>
+            <div class="row pb-3">
+
+                @{
+                    int count = 0; // Khởi tạo biến đếm
+                }
+
+                @foreach (var product in Model.Products)
+                {
+                    if (count < 8)
+                    {
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="row p-2">
+                                <div class="col-12 p-1">
+                                    <div id="product_@product.Id" class="card border-0 p-3 shadow border-top border-5 rounded">
+                                        <img src="@product.ImageUrl" class="card-img-top rounded" />
+                                        <div class="card-body pb-0">
+                                            <div class="pl-1">
+                                                <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Name</p>
+                                            </div>
+                                            <div class="pl-1">
+                                                <p class="text-dark opacity-75  text-center">
+                                                    List Price:<span class="text-decoration-line-through">@product.ListPrice.ToString("c")</span>
+                                                </p>
+                                            </div>
+                                            <div class="pl-1">
+                                                <p class="text-dark opacity-75  text-center">As low as: <span>@product.Price100.ToString("c")</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        count++; // Tăng giá trị biến đếm
+                    }
+                    else
+                    {
+                        break; // Kết thúc vòng lặp sau khi hiển thị ba sản phẩm
+                    }
+                }
+
+            </div>
+            <div class="see_main">
+                <div class="see_bt"><a href="/Customer/Shop">See More</a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- copyright section end -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <!-- sidebar -->
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- javascript -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".fancybox").fancybox({
+                openEffect: "none",
+                closeEffect: "none"
+            });
+    </script>
+</body>
+</html>

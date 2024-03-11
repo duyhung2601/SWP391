@@ -119,3 +119,20 @@ C:\Users\linhm\OneDrive\Máy tính\1003SWP\SWP391\Swp391_Nhom1\ShopOnline.DataAc
 C:\Users\linhm\OneDrive\Máy tính\1003SWP\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.pdb
 C:\Users\linhm\OneDrive\Máy tính\1003SWP\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.genruntimeconfig.cache
 C:\Users\linhm\OneDrive\Máy tính\1003SWP\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ref\ShopOnline.DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.deps.json
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.DataAccess.pdb
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.Models.dll
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\bin\Debug\net7.0\ShopOnline.Models.pdb
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\refint\ShopOnline.DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.pdb
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ShopOnline.DataAccess.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Desktop\SWP391\SWP391\Swp391_Nhom1\ShopOnline.DataAccess\obj\Debug\net7.0\ref\ShopOnline.DataAccess.dll

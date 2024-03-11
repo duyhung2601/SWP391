@@ -3081,24 +3081,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\linhm\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\linhm\\OneDrive\\Máy tính\\1003SWP\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\SWP391\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj",
       "projectName": "ShopOnline.DataAccess",
-      "projectPath": "C:\\Users\\linhm\\OneDrive\\Máy tính\\1003SWP\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\linhm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\linhm\\OneDrive\\Máy tính\\1003SWP\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\SWP391\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\SWP391\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\linhm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3106,15 +3101,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\linhm\\OneDrive\\Máy tính\\1003SWP\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-              "projectPath": "C:\\Users\\linhm\\OneDrive\\Máy tính\\1003SWP\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
+            "C:\\Users\\ASUS\\OneDrive\\Desktop\\SWP391\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\SWP391\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
             }
           }
         }
@@ -3164,7 +3158,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
