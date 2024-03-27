@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEEF2BDE-C4D1-49BD-9CB2-F155AD2512EA}|ShopOnline.Utility\\ShopOnline.Utility.csproj|c:\\users\\admin\\onedrive\\desktop\\swp391\\swp391_nhom1\\shoponline.utility\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEEF2BDE-C4D1-49BD-9CB2-F155AD2512EA}|ShopOnline.Utility\\ShopOnline.Utility.csproj|solutionrelative:shoponline.utility\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD5E6A10-3DCE-499E-A04E-E9A124955AD7}|ShopOnline.Models\\ShopOnline.Models.csproj|c:\\users\\admin\\onedrive\\desktop\\swp391\\swp391_nhom1\\shoponline.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD5E6A10-3DCE-499E-A04E-E9A124955AD7}|ShopOnline.Models\\ShopOnline.Models.csproj|solutionrelative:shoponline.models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD5E6A10-3DCE-499E-A04E-E9A124955AD7}|ShopOnline.Models\\ShopOnline.Models.csproj|c:\\users\\admin\\onedrive\\desktop\\swp391\\swp391_nhom1\\shoponline.models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD5E6A10-3DCE-499E-A04E-E9A124955AD7}|ShopOnline.Models\\ShopOnline.Models.csproj|solutionrelative:shoponline.models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80ACA815-7F62-49FA-B17A-659B956B166B}|ShopOnline\\ShopOnline.csproj|c:\\users\\admin\\onedrive\\desktop\\swp391\\swp391_nhom1\\shoponline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80ACA815-7F62-49FA-B17A-659B956B166B}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80ACA815-7F62-49FA-B17A-659B956B166B}|ShopOnline\\ShopOnline.csproj|c:\\users\\admin\\onedrive\\desktop\\swp391\\swp391_nhom1\\shoponline\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80ACA815-7F62-49FA-B17A-659B956B166B}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80ACA815-7F62-49FA-B17A-659B956B166B}|ShopOnline\\ShopOnline.csproj|c:\\users\\admin\\onedrive\\desktop\\swp391\\swp391_nhom1\\shoponline\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{80ACA815-7F62-49FA-B17A-659B956B166B}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80ACA815-7F62-49FA-B17A-659B956B166B}|ShopOnline\\ShopOnline.csproj|c:\\users\\admin\\onedrive\\desktop\\swp391\\swp391_nhom1\\shoponline\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80ACA815-7F62-49FA-B17A-659B956B166B}|ShopOnline\\ShopOnline.csproj|solutionrelative:shoponline\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\Role.cs",
+              "RelativeDocumentMoniker": "ShopOnline.Utility\\Role.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\Role.cs",
+              "RelativeToolTip": "ShopOnline.Utility\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:27:04.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShopOnline.Models\\Product.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\Product.cs",
+              "RelativeToolTip": "ShopOnline.Models\\Product.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAA/wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:26:59.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "ShopOnline.Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShoppingCart.cs",
+              "RelativeToolTip": "ShopOnline.Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:26:58.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "ShopOnline\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T09:26:49.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "ShopOnline\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T09:26:49.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShopOnline\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShopOnline\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T09:26:49.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ShopOnline\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ShopOnline\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAkwCYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:26:49.944Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

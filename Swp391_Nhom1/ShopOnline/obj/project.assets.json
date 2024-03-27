@@ -12008,19 +12008,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
       "projectName": "ShopOnline",
-      "projectPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline\\obj\\",
+      "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\ShopOnline.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12034,14 +12034,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj": {
-              "projectPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj"
+            "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.DataAccess\\ShopOnline.DataAccess.csproj"
             },
-            "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
-              "projectPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
+            "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj": {
+              "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Models\\ShopOnline.Models.csproj"
             },
-            "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj": {
-              "projectPath": "C:\\swp391_nhom1\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj"
+            "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj": {
+              "projectPath": "C:\\Users\\admin\\OneDrive\\Desktop\\SWP391\\Swp391_Nhom1\\ShopOnline.Utility\\ShopOnline.Utility.csproj"
             }
           }
         }
@@ -12050,6 +12050,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -12106,7 +12111,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
